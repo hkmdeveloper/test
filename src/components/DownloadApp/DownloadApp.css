@@ -1,0 +1,98 @@
+.download-app-container {
+  width: 810px;
+  top: auto;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 10;
+  /* background: url("/src/assets/downloadappstrip.webp") no-repeat; */
+  background-size: cover;
+  height: 88px;
+  position: fixed;
+}
+.download-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding: 15px;
+  justify-content: center;
+}
+.download-app-heading {
+  background: linear-gradient(to right, #e10000 0, #2b0101 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  color: #000;
+  margin-right: 30px;
+  font-size: 23px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+.download-app-inputs {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+.app-input-controls {
+  width: 240px;
+  flex-shrink: 0;
+  border: 2px solid #bbb7b7;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0px 7px;
+  border-radius: 30px;
+  font-size: 13px;
+  gap: 12px;
+}
+.app-input-controls input[type="text"] {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.country-code {
+  padding-right: 10px;
+  border-right: 1px solid #ccc;
+}
+.get-app-link-btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  height: 44px;
+  background: rgb(16, 158, 56);
+  background: radial-gradient(
+    circle,
+    rgba(16, 158, 56, 1) 0%,
+    rgba(9, 84, 30, 0.8870141806722689) 100%
+  );
+  color: #fff;
+  width: 200px;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+.download-app-desktop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 480px) {
+  .download_mobile_app {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .get-app-link-btn {
+    padding: 0px;
+  }
+  /* .download_mobile_app.scrolled {
+    position: static !important;
+  } */
+}

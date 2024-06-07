@@ -1,0 +1,102 @@
+.howtoplay-section{
+    background: #f5f5f5;
+    padding: 3rem 0;
+}
+.video-div{
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: 15px 0px;
+}
+.customer-review {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.customer-review-container {
+    width: 100%;
+    min-width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    min-height: 260px;
+}
+.review-rating-section {
+    margin-top: 40px;
+}
+.cust-header img {
+    width: 65px;
+    margin: -25px 0px 0px 20px;
+}
+.cust-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cust-badge-black {
+    background: #1a1a1a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+.cust-header h4 {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--secondaryColor);
+}
+.cust-win-title h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.cust-win-title small, .cust-win-price small {
+    color: #a8a8a8;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+}
+.cust-win-price {
+    text-align: right;
+}
+.cust-win-price h6 {
+    color: #ffd152;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 0 1px 0 #8d691e;
+}
+.cust-para {
+    padding: 15px;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.rating-star-box {
+    box-shadow: 0 4px 8px rgba(117,117,117,.0916193);
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 517px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: var(--secondaryColor);
+    gap: 10px;
+    line-height: 0;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+}
+.stars svg{
+    color: #fccc38;
+}
+.text-gray{
+    color:#6a6b69
+}
+

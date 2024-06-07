@@ -1,0 +1,32 @@
+.faqs-section{
+    padding: 3rem 0;
+}
+.faqs-container {
+    max-width: 600px;
+    margin: auto;
+}
+.acc-item {
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid #dadada;
+}
+.acc-header {
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.acc-header:hover {
+    background: #f9f9f9;
+}
+.acc-body{
+    padding: 0px 15px;
+    transition: 0.3s all;
+    font-size:15px;
+}
+.acc-body p{
+    margin-bottom: 15px;
+}

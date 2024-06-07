@@ -1,0 +1,28 @@
+.wr-heading-container {
+  padding: 50px;
+  text-align: center;
+}
+
+.wr-heading {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.wr-span-blue {
+  color: #1c2985;
+}
+
+.wr-main-container {
+  background: url("../../assets/winners-review-bg.jpeg");
+  height: 430px;
+  display: flex;
+  padding: 30px;
+  gap: 50px;
+}
+
+.wr-review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}

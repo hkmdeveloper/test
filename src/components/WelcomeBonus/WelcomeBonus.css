@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.wb-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(#000000b9, #000000ef),
+    url(../../assets/welcome-bg.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wb-image {
+  max-width: 400px;
+}
+
+.wb-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.wb-heading {
+  font-size: 33px;
+  color: white;
+}
+
+.wb-text-gold {
+  color: #fbb82f;
+}
+
+.wb-text_1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.wb-text_2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.wb-text_3 {
+  font-size: 9.625px;
+  color: white;
+}

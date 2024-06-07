@@ -1,0 +1,58 @@
+.fantasy-sports-section{
+    padding: 3rem 0;
+    background: #f5f5f5;
+}
+/* .fantasy-sport-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+} */
+.sports-item {
+    padding: 35px 15px 15px 15px;
+    border-radius: 18px;
+    border: 1px solid #ffc6c6;
+    margin: 40px auto 0;
+    position: relative;
+    width: 92%;
+}
+.sports-header {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ffc6c6;
+    border-radius: 30px;
+    background: #fff;
+    padding: 6px 8px;
+    gap: 5px;
+    position: absolute;
+    top: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 170px;
+    justify-content: center;
+}
+.sports-icon img {
+    width: 20px;
+    flex-shrink: 0;
+}
+.sports-title {
+    font-size: 14px;
+    color: var(--primaryColor);
+    line-height: 0;
+}
+.sports-item p {
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.slick-prev, .slick-next{
+    top: 60% !important;
+}
+.slick-prev:before, .slick-next:before{
+    font-size: 30px !important;
+    color: var(--primaryColor) !important;
+}

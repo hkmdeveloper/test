@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+  --primaryColor : #e10000;
+  --secondaryColor : #1a1a1a;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+header, footer, section{
+  width: 100%;
+  float: left;
+}
+.container{
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+}
+.heading {
+  color: #000;
+  text-align: center;
+  font-size: 33px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.heading span{
+  color: #1c2985;
+}
+.mt-70{
+  margin-top: 70px;
+}
+p{
+  color: #4d4d4d;
+  /* line-height: 20px; */
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.text-center{
+  text-align: center;
+}
+img{
+  vertical-align: middle;
+}
+.download_mobile_app{
+  display: none;
+}
+
+@media (max-width:767px) {
+  .container{
+    padding: 0px 15px;
+  }
+  .header-section{padding: 10px 15px;}
+  .banner-item{
+    height: auto;
+    padding-bottom: 150px;
+  }
+  .banner-img img{max-width: 95%;}
+  .download-app-container{display: none;}
+  .official-partner-logo {
+    gap: 15px;
+    margin: 20px 0px;
+}
+.official-partner-logo img {
+  max-width: 60px;
+  border-radius: 7px;
+}
+.dream11-cards{
+  flex-wrap: wrap;
+}
+.dream11-card-item{
+  margin-bottom: 60px;
+}
+.video-div img{
+  width: 90%;
+}
+.customer-review {
+  width: 100%;
+  gap: 20px;
+  overflow: auto;
+  padding: 30px 15px 25px 15px;
+  justify-content: flex-start;
+}
+.get-app-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.rating-star-box{
+  width: 100%;
+  flex-wrap: wrap;
+}
+.footer-left {
+  width: 100%;
+  text-align: center;
+}
+.footer-left ul{
+  justify-content: center;
+}
+.footer-center {
+  display: flex;
+  gap: 15px;
+  border-right: none;
+  padding-right: 0;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer-right {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.ft-row {
+  gap: 15px;
+}
+
+.download_mobile_app {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  display: block
+}
+.download_mobile_app img{
+  width: 100%;
+}
+.slick-prev {
+  left: 2px;
+}
+.slick-next {
+  right: 15px;
+}
+.sports-item{width:80%;}
+
+.download_mobile_app.scrolled {
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  background: #fff;
+}
+
+
+}
+

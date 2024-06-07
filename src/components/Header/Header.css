@@ -1,0 +1,33 @@
+.header-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 10px 30px;
+    background: transparent; /* Ensure the background is transparent */
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 20%;
+    display: block; /* Ensure the image is block to avoid any extra spacing */
+}
+
+/* Additional CSS to reset any unintended styles */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header-section::before,
+.header-section::after {
+    content: none;
+    display: none; /* Ensure no pseudo-elements are present */
+}

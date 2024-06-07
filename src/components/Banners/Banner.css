@@ -1,0 +1,74 @@
+section.banner-section {
+  position: relative;
+}
+
+.banner-item {
+  /* background: url("../../assets/postDreamsaleBannerBG.webp") no-repeat center; */
+  background-size: cover;
+  height: 100%;
+  
+}
+
+.banner-img {
+  max-width: 100%;
+ 
+}
+
+.banner-img img {
+  width: 100%;
+
+}
+  
+
+.slide-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 96px;
+  width: 100%;
+  gap: 10px;
+}
+
+.dot-indicator {
+  width: 24px;
+  height: 4px;
+  transform: translate(0, 0) scale(1, 1.1) skew(-23deg, 0deg);
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.dot-indicator.active {
+  background: #e4e4e4;
+}
+
+@keyframes imgZoom {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  100% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-img img {
+    aspect-ratio: 1 !important;
+    max-width: 100% !important;
+  }
+}
+
+
+
+/* Additional CSS to reset any unintended styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+section.banner-section::before,
+section.banner-section::after {
+  content: none;
+}
+
