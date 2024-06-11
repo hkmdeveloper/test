@@ -7,7 +7,7 @@ export const TermsAndCondition = () => {
       <div className="each-tc-container">
       <p className="tc-para">........</p>
     
-        {/* <h3 className="tc-heading">1. INTRODUCTION - WHO WE ARE AND WHAT WE DO?</h3> */}
+        <h3 className="tc-heading">TERMS AND CONDITIONS</h3>
         <p className="tc-para">MyWicket11 in compliance with Indian Cyber Laws</p>
 
          {/* <ul className="tc-list">
