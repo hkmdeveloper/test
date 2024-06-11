@@ -53,7 +53,7 @@ section.banner-section {
 
 @media (max-width: 480px) {
   .banner-img img {
-    aspect-ratio: 1 !important;
+/* aspect-ratio: 1 !important; --> */
     max-width: 100% !important;
   }
 }
