@@ -31,3 +31,9 @@
 .fc-list-item {
   margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+  .fc-container {
+    padding: 25px 50px; 
+  }
+}
