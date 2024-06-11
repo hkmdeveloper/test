@@ -2,30 +2,40 @@
 
 .wb-container {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: center;
   align-items: center;
-  gap: 150px;
+  gap: 50px;
+  padding: 20px;
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(#000000b9, #000000ef),
-    url(../../assets/welcome-bg.jpg);
-  background-position: 50%;
+  background: linear-gradient(#000000b9, #000000ef), url(../../assets/welcome-bg.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.wb-image-container {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
 .wb-image {
-  max-width: 400px;
+  max-width: 100%;
+  height: auto;
 }
 
 .wb-text-container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
 }
 
 .wb-heading {
-  font-size: 33px;
+  font-size: 2rem;
   color: white;
 }
 
@@ -34,18 +44,88 @@
 }
 
 .wb-text_1 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   color: white;
 }
 
 .wb-text_2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: bold;
   color: white;
 }
 
 .wb-text_3 {
-  font-size: 9.625px;
+  font-size: 0.6rem;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .wb-container {
+    gap: 30px;
+  }
+
+  .wb-heading {
+    font-size: 1.75rem;
+  }
+
+  .wb-text_1 {
+    font-size: 1rem;
+  }
+
+  .wb-text_2 {
+    font-size: 1.5rem;
+  }
+
+  .wb-text_3 {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .wb-container {
+    gap: 20px;
+  }
+
+  .wb-heading {
+    font-size: 1.5rem;
+  }
+
+  .wb-text_1 {
+    font-size: 0.875rem;
+  }
+
+  .wb-text_2 {
+    font-size: 1.25rem;
+  }
+
+  .wb-text_3 {
+    font-size: 0.45rem;
+  }
+
+  .wb-image {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 390px) {
+  .wb-heading {
+    font-size: 1.25rem;
+  }
+
+  .wb-text_1 {
+    font-size: 0.75rem;
+  }
+
+  .wb-text_2 {
+    font-size: 1rem;
+  }
+
+  .wb-text_3 {
+    font-size: 0.4rem;
+  }
+
+  .wb-image {
+    max-width: 100%;
+  }
 }
