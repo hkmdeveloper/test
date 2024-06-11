@@ -1,10 +1,10 @@
 .wr-heading-container {
-  padding: 50px;
+  padding: 5vw; /* Use percentage for padding */
   text-align: center;
 }
 
 .wr-heading {
-  font-size: 30px;
+  font-size: 3vw; /* Use viewport width for font size */
   letter-spacing: 1px;
 }
 
@@ -14,15 +14,46 @@
 
 .wr-main-container {
   background: url("../../assets/winners-review-bg.jpeg");
-  height: 430px;
+  height: auto; /* Remove fixed height */
   display: flex;
-  padding: 30px;
-  gap: 50px;
+  flex-direction: column; /* Change flex direction for responsiveness */
+  padding: 3vw; /* Use percentage for padding */
+  gap: 3vw; /* Use percentage for gap */
 }
 
 .wr-review-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 2vw; /* Use percentage for gap */
+  background-color: rgba(0, 0, 0, 0.5); /* Add background color with transparency for better readability */
+  padding: 3vw; /* Use percentage for padding */
+}
+
+.wr-review-container img {
+  border-radius: 50%;
+  width: 20vw; /* Use viewport width for image size */
+  height: 20vw; /* Use viewport width for image size */
+  object-fit: cover;
+}
+
+.wr-review-container h4, .wr-review-container p {
+  color: white;
+  font-size: 2vw; /* Use viewport width for font size */
+}
+
+.wr-review-container p {
+  font-size: 1.2vw; /* Use viewport width for font size */
+}
+
+.wr-review-container h5 {
+  color: #f8b64c;
+  font-size: 1.6vw; /* Use viewport width for font size */
+}
+
+/* Media Query for adjusting layout on smaller screens */
+@media (max-width: 768px) {
+  .wr-main-container {
+    flex-direction: column;
+  }
 }
