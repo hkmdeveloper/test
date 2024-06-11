@@ -102,7 +102,7 @@ const WinnersReview = () => {
               lineHeight: "1.4",
             }}
           >
-            The emergence of My Master 11 has truly revolutionized the world of
+            The emergence of My Wicket 11 has truly revolutionized the world of
             Fantasy apps With its user-friendly interface. It offers a fantastic
             avenue to engage in contests with minimal risk, while significantly
             boosting the possibilities of winning substantial points prizes.
