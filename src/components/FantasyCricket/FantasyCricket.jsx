@@ -9,20 +9,20 @@ const FantacyCricket = () => {
     <div>
       <OfficialPartner />
       <div className="review-rating-section">
-        <div className="heading">
+        {/* <div className="heading">
           Hear it from <span>Our Winners</span>
-        </div>
-        <div className="customer-review">
+        </div> */}
+        {/* <div className="customer-review">
           {userReview.map((user) => (
             <CustomerReview key={user.id} {...user} />
           ))}
-        </div>
+        </div> */}
       </div>
 
       <div className="fc-container">
         <h3 className="fc-heading">
           Fantasy Cricket Industry
-          <span style={{ color: "#E10000" }}> Overview In India</span>
+          <span style={{ color: "#1c2985" }}> Overview In India</span>
         </h3>
         <p className="fc-para">
           India’s online gaming platform takes over 3/4th of the gaming market.
@@ -45,7 +45,7 @@ const FantacyCricket = () => {
       <div className="fc-container bg-grey">
         <h3 className="fc-heading">
           Fantasy Cricket
-          <span style={{ color: "#E10000" }}> Points System</span>
+          <span style={{ color: "#1c2985" }}> Points System</span>
         </h3>
         <p className="fc-para">
           The Fantasy points differ slightly from one format of cricket to
