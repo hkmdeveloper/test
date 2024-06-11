@@ -29,7 +29,7 @@ const WinnersReview = () => {
           <p style={{ color: "white", fontSize: "12px" }}>Gujarat</p>
           <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
             <img src={cup} width="32px" />
-            <h5 style={{ color: "#f8b64c", fontSize: "16px" }}>WON 2 LAKH</h5>
+            <h5 style={{ color: "#f8b64c", fontSize: "16px" }}>WON </h5>
           </div>
           <p
             style={{
@@ -60,7 +60,7 @@ const WinnersReview = () => {
           <p style={{ color: "white", fontSize: "12px" }}>Rajasthan</p>
           <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
             <img src={cup} width="32px" />
-            <h5 style={{ color: "#f8b64c", fontSize: "16px" }}>WON 2 LAKH</h5>
+            <h5 style={{ color: "#f8b64c", fontSize: "16px" }}>WON </h5>
           </div>
           <p
             style={{
