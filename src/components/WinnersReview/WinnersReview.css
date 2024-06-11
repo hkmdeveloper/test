@@ -1,10 +1,10 @@
 .wr-heading-container {
-  padding: 5vw; /* Use percentage for padding */
+  padding: 2em;
   text-align: center;
 }
 
 .wr-heading {
-  font-size: 3vw; /* Use viewport width for font size */
+  font-size: 2em;
   letter-spacing: 1px;
 }
 
@@ -14,46 +14,117 @@
 
 .wr-main-container {
   background: url("../../assets/winners-review-bg.jpeg");
-  height: auto; /* Remove fixed height */
+  height: auto;
   display: flex;
-  flex-direction: column; /* Change flex direction for responsiveness */
-  padding: 3vw; /* Use percentage for padding */
-  gap: 3vw; /* Use percentage for gap */
+  flex-direction: column;
+  padding: 2em;
+  gap: 2em;
 }
 
 .wr-review-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2vw; /* Use percentage for gap */
-  background-color: rgba(0, 0, 0, 0.5); /* Add background color with transparency for better readability */
-  padding: 3vw; /* Use percentage for padding */
+  gap: 1.5em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2em;
 }
 
 .wr-review-container img {
   border-radius: 50%;
-  width: 20vw; /* Use viewport width for image size */
-  height: 20vw; /* Use viewport width for image size */
+  width: 10em;
+  height: 10em;
   object-fit: cover;
 }
 
 .wr-review-container h4, .wr-review-container p {
   color: white;
-  font-size: 2vw; /* Use viewport width for font size */
+  font-size: 1.2em;
 }
 
 .wr-review-container p {
-  font-size: 1.2vw; /* Use viewport width for font size */
+  font-size: 1em;
 }
 
 .wr-review-container h5 {
   color: #f8b64c;
-  font-size: 1.6vw; /* Use viewport width for font size */
+  font-size: 1.2em;
+}
+
+/* Media Query for laptops and desktops */
+@media (min-width: 769px) {
+  .wr-heading-container {
+    padding: 1.5em;
+  }
+
+  .wr-heading {
+    font-size: 1.5em;
+  }
+
+  .wr-main-container {
+    padding: 1.5em;
+    gap: 1.5em;
+    flex-direction: row;
+  }
+
+  .wr-review-container {
+    padding: 1.5em;
+    gap: 1em;
+  }
+
+  .wr-review-container img {
+    width: 8em;
+    height: 8em;
+  }
+
+  .wr-review-container h4, .wr-review-container p {
+    font-size: 1em;
+  }
+
+  .wr-review-container p {
+    font-size: 0.9em;
+  }
+
+  .wr-review-container h5 {
+    font-size: 1em;
+  }
 }
 
 /* Media Query for adjusting layout on smaller screens */
 @media (max-width: 768px) {
+  .wr-heading-container {
+    padding: 5vw;
+  }
+
+  .wr-heading {
+    font-size: 3vw;
+  }
+
   .wr-main-container {
+    padding: 3vw;
+    gap: 3vw;
     flex-direction: column;
+  }
+
+  .wr-review-container {
+    padding: 3vw;
+    gap: 2vw;
+  }
+
+  .wr-review-container img {
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .wr-review-container h4, .wr-review-container p {
+    font-size: 2vw;
+  }
+
+  .wr-review-container p {
+    font-size: 1.2vw;
+  }
+
+  .wr-review-container h5 {
+    font-size: 1.6vw;
   }
 }
