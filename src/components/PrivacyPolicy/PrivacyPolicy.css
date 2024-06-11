@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 .privacy-policy-container {
-  padding: 25px 150px;
+  padding: 25px 50px;
 }
 
 .each-policy-container {
@@ -29,3 +29,33 @@
 .policy-list-item {
     margin-bottom:10px;
 }
+
+@media (max-width: 768px) {
+  .privacy-policy-container {
+    padding: 25px 50px; 
+  }
+}
+
+/* Media query for smaller screens */
+/* @media (max-width: 576px) {
+  .privacy-policy-container {
+    padding: 20px 5%;
+  }
+
+  .each-policy-container {
+    margin-bottom: 20px;
+  }
+
+  .policy-heading {
+    font-size: 20px; 
+    margin-bottom: 10px;
+  }
+
+  .policy-para {
+    font-size: 16px;
+    margin-bottom: 10px; 
+  }
+} */
+
+
+
